@@ -15,11 +15,11 @@ p{
 .pictOfHer {
   width: 22rem;
   position: relative;
-
+  left: 50px;
 }
 
 .headingHBD {
-  margin: 7% 0 0 0;
+  font-size: 3.2rem;
   color: #57837B;
 }
 
@@ -57,10 +57,6 @@ p{
   color: #F0E5CF;
 }
 
-.delapanSept{
-  position: relative;
-}
-
 .iframe{
   text-align: center;
   margin: 20% 0 15%;
@@ -74,5 +70,8 @@ p{
 
 .sp{
   text-align: center;
+}
 
+.ucapanHeading{
+  margin-top: 50px;
 }

@@ -37,6 +37,7 @@ $('document').ready(function() {
     }, 500);
   });
 
+  // BUAT TURN ON
   $('#turn_on').click(function() {
     $('#bulb_yellow').addClass('bulb-glow-yellow');
     $('#bulb_red').addClass('bulb-glow-red');
@@ -65,6 +66,7 @@ $('document').ready(function() {
     });
   });
 
+  // Datengin bannar
   $('#bannar_coming').click(function() {
     $('.bannar').addClass('bannar-come');
     $(this).fadeOut('slow').delay(6000).promise().done(function() {
@@ -149,6 +151,7 @@ $('document').ready(function() {
     });
   }
 
+  // flying baloon unch
   $('#balloons_flying').click(function() {
     $('.balloon-border').animate({
       top: -500
@@ -173,21 +176,7 @@ $('document').ready(function() {
     });
   });
 
-  // $('#cake_fadein').click(function(){
-  // 	$('.cake').fadeIn('slow');
-  // 	$(this).fadeOut('slow').delay(3000).promise().done(function(){
-  // 		$('#light_candle').fadeIn('slow');
-  // 	});
-  // });
-  //
-  // $('#light_candle').click(function(){
-  // 	$('.fuego').fadeIn('slow');
-  // 	$(this).fadeOut('slow').promise().done(function(){
-  // 		$('#wish_message').fadeIn('slow');
-  // 	});
-  // });
-
-
+  // Habede cayank
   $('#wish_message').click(function() {
     vw = $(window).width() / 2;
 
@@ -256,7 +245,7 @@ $('document').ready(function() {
         }
 
       });
-      // body...
+
     }
 
     msgLoop(0);
